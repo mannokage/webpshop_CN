@@ -1,0 +1,149 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "WebPShopUIResource_windows.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+16090 DIALOGEX 0, 0, 371, 318
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "WebPShop"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&确定",1,312,6,50,14
+    PUSHBUTTON      "&关闭",2,312,23,50,14
+    LTEXT           "WebP导出设置：",5,6,6,250,8
+    GROUPBOX        "导出质量",10,6,21,204,51
+    CONTROL         "",11,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,36,36,100,15
+    EDITTEXT        12,174,30,24,14,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "有损",13,35,57,50,8
+    LTEXT           "无损",14,120,58,50,8
+    GROUPBOX        "压缩方式",20,222,18,78,54
+    CONTROL         "快速",21,"Button",BS_AUTORADIOBUTTON,228,30,66,10
+    CONTROL         "默认",22,"Button",BS_AUTORADIOBUTTON,228,42,66,10
+    CONTROL         "慢速",23,"Button",BS_AUTORADIOBUTTON,228,54,66,10
+    GROUPBOX        "元数据",30,6,79,359,28
+    CONTROL         "保留EXIF",33,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,13,91,80,8
+    CONTROL         "保留XMP",34,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,98,91,80,8
+    CONTROL         "保留颜色配置文件",35,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,183,91,80,8
+    CONTROL         "持续循环",38,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,268,91,80,8
+    GROUPBOX        "         ",40,6,114,359,200
+    CTEXT           "",41,10,128,350,180,NOT WS_VISIBLE
+    CONTROL         "预览: 12.3 kB",42,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,113,80,8
+    RTEXT           "  框架: ",45,146,113,49,8
+    CONTROL         "",46,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,195,112,100,12
+    EDITTEXT        47,295,110,24,14,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "40 ms",48,319,113,35,8
+END
+
+16091 DIALOG 0, 0, 200, 90
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "关于 WebPShop"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "确定",1,171,7,11,14,NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "关闭",2,172,24,10,14,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "WebPShop 版本：0.4.0\nWebP库版本：1.2.1\n一个支持Photoshop读写Webp文件的插件。\nCopyright 2019-2021 Google LLC.\n\n\t中文翻译：动漫萌社区\tmannokage",5,10,10,180,50
+    PUSHBUTTON      "developers.google.com/speed/webp",10,10,60,180,20
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    16090, DIALOG
+    BEGIN
+    END
+
+    16091, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+16090 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "WebPShopUIResource_windows.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#include ""WebPShop.pipl""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "WebPShop.pipl"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
